@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/p_16dp"
+    android:minHeight="@dimen/p_56dp"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.Material3.TitleMedium"
+        android:textStyle="bold"
+        android:textSize="@dimen/p_16sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/tv_price"
+        android:layout_marginEnd="@dimen/p_8dp"/>
+
+    <TextView
+        android:id="@+id/tv_price"
+        style="@style/TextAppearance.Material3.BodySmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/p_14sp"
+        android:layout_toStartOf="@id/iv_chevron"
+        app:layout_constraintEnd_toStartOf="@+id/iv_chevron" />
+
+    <ImageView
+        android:id="@+id/iv_chevron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_chevron_right"
+        android:layout_alignParentEnd="true"
+         android:layout_marginStart="@dimen/p_8dp" />
+</RelativeLayout>

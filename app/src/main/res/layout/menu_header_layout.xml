@@ -1,0 +1,17 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        style="@style/TextAppearance.Material3.HeadlineMedium"
+        android:id="@+id/tv_category"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="?attr/colorSurface"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="@dimen/p_18sp"
+        android:padding="@dimen/p_8dp" />
+</RelativeLayout>

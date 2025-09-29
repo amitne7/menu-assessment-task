@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Menu Assessment</string>
+    <string name="text_menu">Menu</string>
+    <string name="text_network_error">Network error occurred</string>
+    <string name="error_no_internet">Internet connection not available</string>
+</resources>
